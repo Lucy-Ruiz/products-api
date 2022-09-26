@@ -114,6 +114,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 USE_TZ = False
 
 try: 
-    from products_api_project.local_setting import *
+    from products_api_project.local_settings import *
 except ImportError:
     pass
